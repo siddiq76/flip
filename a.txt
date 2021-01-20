@@ -7,3 +7,5 @@ elif [[ $Random -eq 0 ];
 then
 	echo TAILS
 fi
+res=$(echo $Random | bc -l)
+	echo $res
