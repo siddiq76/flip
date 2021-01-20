@@ -1,5 +1,5 @@
 #! /bin/bash -x
-Random=$((Random%2))
+Random=(($((Random%21))%2))
 if [[ $Random -eq 1 ];
 then
 	echo HEADS
